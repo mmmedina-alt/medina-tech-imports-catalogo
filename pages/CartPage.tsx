@@ -46,7 +46,7 @@ const CartPage: React.FC<CartPageProps> = ({ items, onNavigate, onRemoveItem, on
     <div className="bg-gray-900 min-h-screen">
         <div className="container mx-auto py-12 px-4 sm:px-8 md:px-16">
             <a onClick={() => onNavigate('catalog')} className="cursor-pointer inline-block text-[#00FF3B] font-semibold hover:underline mb-8">
-                &larr; Voltar ao catálogo
+                &larr; Voltar ao CATÁLOGO
             </a>
             <h1 className="text-3xl md:text-4xl font-extrabold text-white mb-8 border-b border-gray-700 pb-4 uppercase">
                 Meu carrinho

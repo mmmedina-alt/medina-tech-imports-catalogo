@@ -16,7 +16,7 @@ const Hero = ({ onNavigate }: { onNavigate: (view: string) => void }) => {
             onClick={() => onNavigate('catalog')}
             className="cursor-pointer inline-block bg-[#00FF3B] text-black font-bold text-lg py-3 px-8 rounded-lg hover:bg-opacity-80 transition-all duration-300 transform hover:scale-105"
           >
-            Ver Catálogo
+            VER CATÁLOGO
           </a>
         </div>
         <div className="flex justify-center items-center">

@@ -29,7 +29,7 @@ const ProductDetailSection: React.FC<ProductDetailSectionProps> = ({ product, in
                     <h2 className="text-3xl md:text-4xl font-bold text-[#333333] mb-4">{product.name}</h2>
                     <p className="text-gray-700 mb-6" style={{fontFamily: "'Roboto', sans-serif"}}>{product.longDescription}</p>
                     
-                    <h3 className="text-xl font-bold text-[#333333] mb-3">Especificações Técnicas:</h3>
+                    <h3 className="text-xl font-bold text-[#333333] mb-3">ESPECIFICAÇÕES TÉCNICAS:</h3>
                     <ul className="list-disc list-inside text-gray-600 mb-6 space-y-1" style={{fontFamily: "'Roboto', sans-serif"}}>
                         {product.specs.map((spec, i) => <li key={i}>{spec}</li>)}
                     </ul>

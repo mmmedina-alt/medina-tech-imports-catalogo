@@ -8,10 +8,10 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product, onNavigate }) => (
     <div className="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden flex flex-col h-full group transition-all duration-300 hover:shadow-xl hover:border-[#00FF3B]">
-        <div className="relative">
+        <div className="relative cursor-pointer" onClick={() => onNavigate(product.id)}>
              {product.status === 'upcoming' && (
                 <div className="absolute top-4 left-4 bg-yellow-400 text-black text-xs font-bold uppercase px-3 py-1 rounded-full z-10">
-                    Em Breve
+                    EM BREVE
                 </div>
             )}
             <img 
@@ -29,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onNavigate }) => (
                     onClick={() => onNavigate(product.id)}
                     className="cursor-pointer text-center bg-transparent text-[#00FF3B] border-2 border-[#00FF3B] font-semibold py-3 px-6 rounded-lg hover:bg-[#00FF3B] hover:text-black transition-colors duration-300 w-full sm:w-auto"
                 >
-                    {product.status === 'available' ? 'Ver Detalhes' : 'Saiba Mais'}
+                    {product.status === 'available' ? 'VER DETALHES' : 'SAIBA MAIS'}
                 </a>
             </div>
         </div>

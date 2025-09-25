@@ -32,7 +32,7 @@ const HomePage: React.FC<HomePageProps> = ({ products, onNavigate }) => {
         <section className="bg-black py-20 px-4 sm:px-8 md:px-16 border-t border-gray-800">
           <div className="container mx-auto">
             <div className="text-center mb-16">
-               <h2 className="text-3xl md:text-4xl font-extrabold text-white uppercase">Próximos Lançamentos</h2>
+               <h2 className="text-3xl md:text-4xl font-extrabold text-white uppercase">PRÓXIMOS LANÇAMENTOS</h2>
                <p className="text-lg text-gray-400 mt-4 max-w-3xl mx-auto">
                  Fique de olho nas novidades que estão a caminho para a Medina Tech Imports. A performance do futuro, em breve aqui.
                </p>

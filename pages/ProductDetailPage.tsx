@@ -83,7 +83,7 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ product, onAddToC
         <div className="bg-gray-900 min-h-screen">
             <div className="container mx-auto py-12 px-4 sm:px-8 md:px-16">
                  <a onClick={() => onNavigate(isUpcoming ? 'upcoming' : 'catalog')} className="cursor-pointer inline-block text-[#00FF3B] font-semibold hover:underline mb-8">
-                    &larr; Voltar para {isUpcoming ? 'Próximos Lançamentos' : 'Catálogo'}
+                    &larr; Voltar para {isUpcoming ? 'PRÓXIMOS LANÇAMENTOS' : 'CATÁLOGO'}
                 </a>
                 <section id={product.id} className="py-8">
                     <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -132,6 +132,14 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ product, onAddToC
                         {/* Product Info */}
                         <div>
                             <h1 className="text-3xl md:text-4xl font-extrabold text-white uppercase mb-4">{product.name}</h1>
+                            
+                            {/* Short Description */}
+                            {product.shortDescription && (
+                                <p className="text-gray-300 text-lg mb-4 leading-relaxed">
+                                    {product.shortDescription}
+                                </p>
+                            )}
+                            
                             <p className="text-4xl font-bold text-[#00FF3B] mb-2">{product.price}</p>
                             
                             {isUpcoming && product.arrivalDate && (
@@ -169,7 +177,7 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ product, onAddToC
                                     className="inline-flex items-center justify-center text-lg bg-[#00FF3B] text-black font-bold py-4 px-10 rounded-lg hover:bg-opacity-80 transition-all duration-300 transform hover:scale-105 shadow-lg w-full sm:w-auto disabled:bg-gray-600 disabled:text-gray-400 disabled:cursor-not-allowed disabled:transform-none"
                                     disabled={isUpcoming || remainingStock === 0}
                                 >
-                                   {isUpcoming ? 'Disponível em Breve' : (remainingStock > 0 ? 'Adicionar ao Carrinho' : 'Esgotado')}
+                                   {isUpcoming ? 'DISPONÍVEL EM BREVE' : (remainingStock > 0 ? 'ADICIONAR AO CARRINHO' : 'ESGOTADO')}
                                 </button>
                                 <a
                                     href={whatsappLink}
@@ -194,10 +202,10 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ product, onAddToC
 
                             {/* Accordion */}
                             <div className="space-y-2 mt-8">
-                                <AccordionItem title="Descrição Completa">
+                                <AccordionItem title="DESCRIÇÃO COMPLETA">
                                     <p>{product.longDescription}</p>
                                 </AccordionItem>
-                                <AccordionItem title="Especificações Técnicas">
+                                <AccordionItem title="ESPECIFICAÇÕES TÉCNICAS">
                                     <ul className="list-disc list-inside space-y-1">
                                         {product.specs.map((spec, i) => <li key={i}>{spec}</li>)}
                                     </ul>

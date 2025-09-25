@@ -23,13 +23,13 @@ const Header = ({ cartCount, onNavigate, onSearchClick }: { cartCount: number, o
                         onClick={() => onNavigate('catalog')}
                         className="cursor-pointer inline-block bg-[#00FF3B] text-black font-bold py-2 px-3 rounded-lg hover:bg-opacity-80 transition-colors duration-300 text-xs"
                     >
-                        Catálogo
+                        CATÁLOGO
                     </a>
                      <a 
                         onClick={() => onNavigate('upcoming')}
                         className="cursor-pointer inline-block bg-gray-700 text-white font-bold py-2 px-3 rounded-lg hover:bg-gray-600 transition-colors duration-300 text-xs"
                     >
-                        Em Breve
+                        EM BREVE
                     </a>
                 </div>
 
@@ -40,13 +40,13 @@ const Header = ({ cartCount, onNavigate, onSearchClick }: { cartCount: number, o
                         onClick={() => onNavigate('upcoming')}
                         className="cursor-pointer hidden sm:inline-block text-gray-300 font-semibold hover:text-[#00FF3B] transition-colors duration-300"
                     >
-                        Próximos Lançamentos
+                        PRÓXIMOS LANÇAMENTOS
                     </a>
                     <a 
                         onClick={() => onNavigate('catalog')}
                         className="cursor-pointer hidden sm:inline-block bg-[#00FF3B] text-black font-bold py-2 px-4 sm:px-6 rounded-lg hover:bg-opacity-80 transition-colors duration-300 text-sm sm:text-base"
                     >
-                        Ver Catálogo
+                        VER CATÁLOGO
                     </a>
                     <button onClick={onSearchClick} className="cursor-pointer p-1" aria-label="Buscar produtos">
                        <MagnifyingGlassIcon className="w-7 h-7 text-white hover:text-[#00FF3B] transition-colors duration-300" />
