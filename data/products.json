@@ -1,0 +1,188 @@
+[
+  {
+    "id": "aula-hero-84-he",
+    "name": "AULA HERO 84 HE",
+    "price": "R$ 589,90",
+    "shortDescription": "",
+    "longDescription": "Teclado magnético 75% com acionamento ajustável via software (0.1mm a 4.0mm) e tecnologia Rapid Trigger. A escolha definitiva para FPS e jogos que exigem a máxima velocidade de resposta. Construção premium com carbon fiber e metal.",
+    "specs": [
+      "Magnetic Axis (Switches Magnéticos)",
+      "0.01mm RT Accuracy",
+      "8K+128K Scanning Rate",
+      "RGB Light"
+    ],
+    "stock": 1,
+    "status": "available",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "mchose-v9-pro",
+    "name": "MCHOSE V9 PRO",
+    "price": "R$ 499,90",
+    "shortDescription": "",
+    "longDescription": "Headset wireless Tri-Mode (Bluetooth, 2.4Ghz, P3) para máxima versatilidade entre PC, consoles e mobile. Áudio imersivo, microfone com cancelamento de ruído e conforto para longas sessões de jogo.",
+    "specs": [
+      "Conectividade Tri-Mode",
+      "Drivers de Alta Qualidade",
+      "Microfone Destacável",
+      "Design Ergonômico"
+    ],
+    "stock": 2,
+    "status": "available",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "akko-tac75-he",
+    "name": "AKKO TAC75 HE",
+    "price": "R$ 359,90",
+    "shortDescription": "",
+    "longDescription": "Teclado mecânico customizável no formato 75%. Oferece uma experiência de digitação e jogo superior à de teclados de membrana, com switches de alta durabilidade e um design compacto para otimizar o espaço na mesa.",
+    "specs": [
+      "Formato 75%",
+      "Switches Mecânicos de Alta Durabilidade",
+      "Keycaps PBT Double-Shot",
+      "RGB"
+    ],
+    "stock": 1,
+    "status": "available",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "delux-m800mini",
+    "name": "DELUX M800MINI",
+    "price": "R$ 259,90",
+    "shortDescription": "",
+    "longDescription": "Mouse gamer ultraleve com apenas 46.5g, ideal para pegadas Claw e Fingertip. Equipado com o sensor PAW3311 para precisão absoluta e conectividade 3-Mode para máxima flexibilidade.",
+    "specs": [
+      "Peso ~46.5g",
+      "Sensor PAW3311",
+      "Conectividade 3-Mode",
+      "Bateria 500mAh",
+      "Switches TTC 60M"
+    ],
+    "stock": 1,
+    "status": "available",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "gamesir-t4-nova-lite",
+    "name": "GAMESIR T4 NOVA LITE",
+    "price": "R$ 189,90",
+    "shortDescription": "",
+    "longDescription": "Controle para PC e consoles com a tecnologia Hall Effect nos analógicos, garantindo zero 'drift' e durabilidade de até 5 milhões de ciclos. A escolha inteligente para quem busca precisão e longevidade.",
+    "specs": [
+      "Hall Effect Sticks",
+      "Never Drift",
+      "Bateria de Longa Duração",
+      "Compatibilidade Multi-plataforma"
+    ],
+    "stock": 1,
+    "status": "available",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "attack-shark-x11",
+    "name": "ATTACK SHARK X11",
+    "price": "R$ 259,90",
+    "shortDescription": "",
+    "longDescription": "Mouse gamer sem fio com uma conveniente dock de carregamento magnético com RGB. Design ergonômico e sensor de alta precisão para performance consistente em qualquer jogo.",
+    "specs": [
+      "Conexão Wireless 2.4Ghz",
+      "Dock de Carregamento Magnético",
+      "Design Ergonômico",
+      "Sensor de Alta Performance"
+    ],
+    "stock": 1,
+    "status": "available",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "aula-f75",
+    "name": "AULA-F75",
+    "price": "R$ 354,90",
+    "shortDescription": "",
+    "longDescription": "O teclado 75% que redefiniu o mercado. O AULA-F75 entrega uma experiência premium de teclado customizado direto da caixa. Com sua estrutura Gasket Mount, proporciona uma digitação incrivelmente suave e satisfatória, ideal tanto para sessões intensas de jogos quanto para produtividade. Seu design compacto libera espaço na mesa, enquanto o knob rotativo oferece controle tátil e rápido sobre seu volume e mídias.",
+    "specs": [
+      "Formato 75%",
+      "Estrutura Gasket Mount",
+      "Conectividade Tri-Mode (Bluetooth, 2.4Ghz, USB-C)",
+      "Switches Mecânicos Pré-Lubrificados",
+      "Keycaps em PBT Double-Shot",
+      "Rotary Knob customizável"
+    ],
+    "stock": 2,
+    "status": "upcoming",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "atk-99g-mousepad-air",
+    "name": "ATK 99G MOUSEPAD - Air",
+    "price": "R$ 249,00",
+    "shortDescription": "",
+    "longDescription": "Projetado para a velocidade pura. O ATK 99G Air possui uma superfície de tecido híbrido de baixíssima fricção, permitindo um deslize sem esforço e movimentos de mira ultrarrápidos. É a escolha ideal para jogadores de FPS que dependem de 'flicks' precisos e rastreamento constante. A base de borracha premium garante que ele permaneça fixo, não importa a intensidade da ação.",
+    "specs": [
+      "Tipo: Speed",
+      "Superfície de Tecido Híbrido",
+      "Bordas Costuradas Anti-desfiamento",
+      "Base de Borracha Natural Antiderrapante",
+      "Dimensões: 480x400mm"
+    ],
+    "stock": 1,
+    "status": "upcoming",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "madlions-zeus-mousepad",
+    "name": "MADLIONS ZEUS MOUSEPAD",
+    "price": "R$ 214,99",
+    "shortDescription": "",
+    "longDescription": "Domine cada pixel. Desenvolvido com a chancela da organização de eSports Madlions, o Zeus é um mousepad focado em controle absoluto. Sua superfície de tecido de alta densidade oferece a fricção ideal para um poder de parada instantâneo e micro-ajustes cirúrgicos, essencial para jogos táticos como Valorant e CS. A ferramenta definitiva para quem não aceita nada menos que a precisão máxima.",
+    "specs": [
+      "Tipo: Control",
+      "Superfície de Tecido de Alta Densidade",
+      "Bordas Costuradas Reforçadas",
+      "Base de Borracha Antiderrapante",
+      "Dimensões: 450x400mm"
+    ],
+    "stock": 1,
+    "status": "upcoming",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  },
+  {
+    "id": "madlions-nano68",
+    "name": "MADLIONS NANO68",
+    "price": "R$ 554,90",
+    "shortDescription": "",
+    "longDescription": "Performance competitiva em um formato minimalista. O Madlions Nano68 é um teclado 65% que concentra o máximo de desempenho no menor espaço possível, liberando uma área massiva para os movimentos do seu mouse. Com construção robusta, switches hot-swappable para customização total e a estética que seu setup merece, é a arma escolhida por quem leva a competição a sério.",
+    "specs": [
+      "Formato 65% (68 teclas)",
+      "Switches Mecânicos Hot-swappable (5 pinos)",
+      "Construção Premium em Alumínio",
+      "Keycaps em PBT Double-Shot",
+      "RGB por tecla"
+    ],
+    "stock": 1,
+    "status": "available",
+    "imageUrl": "",
+    "galleryImages": [],
+    "arrivalDate": ""
+  }
+]
