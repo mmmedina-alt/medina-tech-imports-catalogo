@@ -10,6 +10,15 @@ Deploy rápido (Vercel) + conectar Firebase
    - Build command: `npm run build`
    - Output directory: `dist`
 
+4) Criar token do Vercel e configurar GitHub Actions
+    - No Vercel Dashboard abra Settings -> Tokens e crie um token (Personal Token).
+    - Anote também o `Org ID` e o `Project ID` (Settings do projeto -> General).
+    - No GitHub, vá para Settings -> Secrets and variables -> Actions e adicione os seguintes secrets:
+       - `VERCEL_TOKEN` = o token que você criou
+       - `VERCEL_ORG_ID` = Org ID do Vercel
+       - `VERCEL_PROJECT_ID` = Project ID do Vercel
+    - O workflow `.github/workflows/deploy-vercel.yml` fará build e deploy automaticamente quando `main` for atualizado.
+
 4) Regras do Firebase
    - No console do Firebase, configure Firestore e Storage.
    - Não deixe regras públicas em produção; use autenticação ou regras por produto/coleção.
