@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Teclado Mecânico Gamer",
+    "description": "Switches azuis, iluminação RGB, 104 teclas",
+    "price": 299.9,
+    "sku": "TK-001",
+    "image": "https://via.placeholder.com/400x300.png?text=Teclado"
+  },
+  {
+    "title": "Mouse Gamer",
+    "description": "Sensor 16000 DPI, 6 botões programáveis",
+    "price": 149.5,
+    "sku": "MS-002",
+    "image": "https://via.placeholder.com/400x300.png?text=Mouse"
+  }
+]
