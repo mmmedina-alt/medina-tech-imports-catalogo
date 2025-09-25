@@ -11,9 +11,7 @@ import type { Product, CartItem, ProductFormData } from './types';
 import AnnouncementBar from './components/AnnouncementBar';
 import SearchOverlay from './components/SearchOverlay';
 
-import { db, storage } from './firebaseConfig';
-import { collection, getDocs, addDoc } from 'firebase/firestore';
-import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
+import { getFirebase } from './firebaseConfig';
 
 
 function App() {
@@ -27,6 +25,8 @@ function App() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
+        const { db } = await getFirebase();
+        const { collection, getDocs } = await import('firebase/firestore');
         const querySnapshot = await getDocs(collection(db, "products"));
         const productsList = querySnapshot.docs.map(doc => ({
           id: doc.id,
@@ -84,6 +84,10 @@ function App() {
   
   const handleAddProduct = async (productData: ProductFormData) => {
     try {
+      const { db, storage } = await getFirebase();
+      const { ref, uploadBytes, getDownloadURL } = await import('firebase/storage');
+      const { collection, addDoc } = await import('firebase/firestore');
+
       const imageRef = ref(storage, `products/${Date.now()}-${productData.imageFile.name}`);
       await uploadBytes(imageRef, productData.imageFile);
       const imageUrl = await getDownloadURL(imageRef);
