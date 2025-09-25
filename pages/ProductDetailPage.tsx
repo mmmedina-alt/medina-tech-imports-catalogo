@@ -87,21 +87,40 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ product, onAddToC
                     <div className="grid md:grid-cols-2 gap-12 items-start">
                         {/* Image Gallery */}
                         <div className="flex flex-col items-center">
-                            <img 
-                                src={selectedImage} 
-                                alt={product.name}
-                                className="rounded-lg shadow-2xl w-full max-w-md object-cover border-4 border-gray-800 mb-4"
-                            />
+                            {selectedImage.endsWith('.mp4') ? (
+                                <video 
+                                    src={selectedImage} 
+                                    controls
+                                    className="rounded-lg shadow-2xl w-full max-w-md object-cover border-4 border-gray-800 mb-4"
+                                />
+                            ) : (
+                                <img 
+                                    src={selectedImage} 
+                                    alt={product.name}
+                                    className="rounded-lg shadow-2xl w-full max-w-md object-cover border-4 border-gray-800 mb-4"
+                                />
+                            )}
                              {allImages.length > 1 && (
                                 <div className="flex flex-wrap justify-center gap-2">
                                     {allImages.map((img, index) => (
                                         <button 
                                             key={index} 
                                             onClick={() => setSelectedImage(img)}
-                                            className={`w-20 h-20 rounded-md overflow-hidden border-2 transition-colors duration-200 ${selectedImage === img ? 'border-[#00FF3B]' : 'border-gray-700 hover:border-gray-500'}`}
-                                            aria-label={`Ver imagem ${index + 1} de ${product.name}`}
+                                            className={`w-20 h-20 rounded-md overflow-hidden border-2 transition-colors duration-200 ${selectedImage === img ? 'border-[#00FF3B]' : 'border-gray-700 hover:border-gray-500'} relative`}
+                                            aria-label={`Ver ${img.endsWith('.mp4') ? 'vídeo' : 'imagem'} ${index + 1} de ${product.name}`}
                                         >
-                                            <img src={img} alt={`${product.name} thumbnail ${index + 1}`} className="w-full h-full object-cover" />
+                                            {img.endsWith('.mp4') ? (
+                                                <>
+                                                    <video src={img} className="w-full h-full object-cover" muted />
+                                                    <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                                                        <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                                            <path d="M8 5v14l11-7z"/>
+                                                        </svg>
+                                                    </div>
+                                                </>
+                                            ) : (
+                                                <img src={img} alt={`${product.name} thumbnail ${index + 1}`} className="w-full h-full object-cover" />
+                                            )}
                                         </button>
                                     ))}
                                 </div>
