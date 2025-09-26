@@ -3,7 +3,7 @@
   gap: 2rem;
   align-items: center;
   white-space: nowrap;
-  animation: marquee-horizontal 20s linear infinite;
+  animation: marquee-horizontal 120s linear infinite;
 }
 
 @keyframes marquee-horizontal {
@@ -11,9 +11,6 @@
   to { transform: translateX(-50%); }
 }
 
-.marquee-track-horizontal:hover {
-  animation-play-state: paused;
-}
 
 .bg-\[\#00FF3B\] {
   background-color: #00FF3B;
